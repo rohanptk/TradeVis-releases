@@ -1,5 +1,14 @@
 # TradeVis
 
-Windows installer and automatic updates for TradeVis by Vaibhav.
+Live markets, news and the company Quilt, in one window. By Vaibhav.
 
-Download **TradeVis-win-Setup.exe** from the latest release and run it. If Windows shows "Windows protected your PC", click **More info -> Run anyway** (the app is not code-signed yet). Updates install themselves after that.
+## Install
+1. Download **TradeVis-Setup-<version>.exe** from the [latest release](https://github.com/rohanptk/TradeVis-releases/releases/latest).
+2. Run it. If Windows says "Windows protected your PC", click **More info -> Run anyway** (the app is not code-signed yet).
+3. Choose where to install and which shortcuts you want, then click Install.
+
+No administrator rights needed, and nothing else on your PC is changed. TradeVis updates itself: when a new version is ready it shows "Restart to update".
+
+To pin it to the taskbar: open Start, right-click TradeVis, choose "Pin to taskbar". To remove it: Settings > Apps > Installed apps.
+
+_The other files in each release (`*.nupkg`, `releases.win.json`, `TradeVis-win-Setup.exe`, `Portable.zip`) are used by the built-in updater. You do not need them._
